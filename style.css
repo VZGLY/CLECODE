@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+
+#banner{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #FFE69B;
+}
+
+#bannerLogo{
+    width: 25%;
+    height: 60px;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#bannerLinks{
+    margin-right: 25px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.first-color { 
+	background: #283739; 
+}
+	
+.second-color { 
+	background: #2c5d63; 
+}
+
+.third-color { 
+	background: #a2c11c; 
+}
+
+.fourth-color { 
+	background: #e0e0e0; 
+}
